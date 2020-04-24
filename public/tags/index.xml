@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hello Friend NG</title>
-    <link>/localhost/tags/</link>
+    <link>/rishabhkumar.co.uk/tags/</link>
     <description>Recent content in Tags on Hello Friend NG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/localhost/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/rishabhkumar.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>plot</title>
-      <link>/localhost/tags/plot/</link>
+      <link>/rishabhkumar.co.uk/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/localhost/tags/plot/</guid>
+      <guid>/rishabhkumar.co.uk/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/localhost/tags/r-markdown/</link>
+      <link>/rishabhkumar.co.uk/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/localhost/tags/r-markdown/</guid>
+      <guid>/rishabhkumar.co.uk/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>/localhost/tags/regression/</link>
+      <link>/rishabhkumar.co.uk/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/localhost/tags/regression/</guid>
+      <guid>/rishabhkumar.co.uk/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>/localhost/tags/development/</link>
+      <link>/rishabhkumar.co.uk/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/localhost/tags/development/</guid>
+      <guid>/rishabhkumar.co.uk/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>/localhost/tags/go/</link>
+      <link>/rishabhkumar.co.uk/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/localhost/tags/go/</guid>
+      <guid>/rishabhkumar.co.uk/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>/localhost/tags/golang/</link>
+      <link>/rishabhkumar.co.uk/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/localhost/tags/golang/</guid>
+      <guid>/rishabhkumar.co.uk/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>/localhost/tags/hugo/</link>
+      <link>/rishabhkumar.co.uk/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/localhost/tags/hugo/</guid>
+      <guid>/rishabhkumar.co.uk/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>/localhost/tags/templates/</link>
+      <link>/rishabhkumar.co.uk/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/localhost/tags/templates/</guid>
+      <guid>/rishabhkumar.co.uk/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>/localhost/tags/themes/</link>
+      <link>/rishabhkumar.co.uk/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/localhost/tags/themes/</guid>
+      <guid>/rishabhkumar.co.uk/tags/themes/</guid>
       <description></description>
     </item>
     
