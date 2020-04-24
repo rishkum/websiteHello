@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hello Friend NG</title>
-    <link>/rishabhkumar.co.uk/categories/</link>
+    <link>/~/categories/</link>
     <description>Recent content in Categories on Hello Friend NG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/rishabhkumar.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/~/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R</title>
-      <link>/rishabhkumar.co.uk/categories/r/</link>
+      <link>/~/categories/r/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/rishabhkumar.co.uk/categories/r/</guid>
+      <guid>/~/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/rishabhkumar.co.uk/categories/hugo/</link>
+      <link>/~/categories/hugo/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>/rishabhkumar.co.uk/categories/hugo/</guid>
+      <guid>/~/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>/rishabhkumar.co.uk/categories/development/</link>
+      <link>/~/categories/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/rishabhkumar.co.uk/categories/development/</guid>
+      <guid>/~/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>/rishabhkumar.co.uk/categories/go/</link>
+      <link>/~/categories/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/rishabhkumar.co.uk/categories/go/</guid>
+      <guid>/~/categories/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>/rishabhkumar.co.uk/categories/golang/</link>
+      <link>/~/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/rishabhkumar.co.uk/categories/golang/</guid>
+      <guid>/~/categories/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jekyll</title>
-      <link>/rishabhkumar.co.uk/categories/jekyll/</link>
+      <link>/~/categories/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>/rishabhkumar.co.uk/categories/jekyll/</guid>
+      <guid>/~/categories/jekyll/</guid>
       <description></description>
     </item>
     
