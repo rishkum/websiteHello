@@ -25,6 +25,25 @@ theme        = "hello-friend-ng"
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
+  
+  
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:nobody@example.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/"
+
 
 [taxonomies]
   tag      = "tags"
@@ -46,18 +65,20 @@ theme        = "hello-friend-ng"
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 
+
+[menu]
   # And you can even create generic menu
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
-    url        = "/posts"
+    url        = "/post"
     
   [[menu.main]]
-    identifier = "About me"
+    identifier = "About"
     name       = "About me"
-    url        = "/posts"
+    url        = "/misc/aboutme/"
     
   [[menu.main]]
     identifier = "Projects"
     name       = "Projects"
-    url        = "/posts"
+    url        = "/post"

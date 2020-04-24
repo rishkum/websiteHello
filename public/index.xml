@@ -34,6 +34,21 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>Geslatt Principles</title>
+      <link>/post/geslatt-principles/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/geslatt-principles/</guid>
+      <description>biusfbskr
+Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
       <title>Hello R Markdown</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -130,6 +145,19 @@ là-dedans. Avec Jekylll, l&amp;rsquo;arborescence ressemblant à ceci :&lt;/p&g
     ▾ images/
         logo.png
 &lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/misc/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/misc/aboutme/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+ Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:</description>
     </item>
     
   </channel>

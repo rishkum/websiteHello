@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copyright Rishabh Kumar 2020&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Communication</title>
+      <link>/tags/communication/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualisation</title>
+      <link>/tags/visualisation/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/visualisation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>plot</title>
