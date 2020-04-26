@@ -53,7 +53,7 @@ A group of elements are often perceived to be a single recognisable form or figu
 # Symmetry
 Symmetrical elements tend to perceived as belonging together regardless of their distance, giving us a feeling of solidity and order.
 
-![closure](/post/2020-04-24-geslatt-principles_files/symetry.png)<img src="/post/2020-04-24-geslatt-principles_files/symetry.png" alt="symetry" width="200px" height="200px"/>
+img src="/post/2020-04-24-geslatt-principles_files/symetry.png" alt="symetry" width="500px" height="500px"/>
 
 # Continuation
 Elements arranged in a line or a soft curve are perceived to be more related than those arranged randomly or in a harsh line.
