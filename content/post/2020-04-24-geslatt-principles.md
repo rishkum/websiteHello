@@ -48,12 +48,12 @@ Elements sharing similar visual characteristics are perceived to be more related
 # Closure
 A group of elements are often perceived to be a single recognisable form or figure. The Closure also occurs when an object is incomplete, or parts of it are not enclosed.
 
-![closure](/post/2020-04-24-geslatt-principles_files/closure.png)<img src="/post/2020-04-24-geslatt-principles_files/closure.png" alt="" width="100px" height="100px"/>
+<img src="/post/2020-04-24-geslatt-principles_files/closure.png" alt="" width="400px" height="400px"/>
 
 # Symmetry
 Symmetrical elements tend to perceived as belonging together regardless of their distance, giving us a feeling of solidity and order.
 
-img src="/post/2020-04-24-geslatt-principles_files/symetry.png" alt="symetry" width="500px" height="500px"/>
+<img src="/post/2020-04-24-geslatt-principles_files/symetry.png" alt="symetry" width="500px" height="500px"/>
 
 # Continuation
 Elements arranged in a line or a soft curve are perceived to be more related than those arranged randomly or in a harsh line.
