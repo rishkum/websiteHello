@@ -58,7 +58,7 @@ Symmetrical elements tend to perceived as belonging together regardless of their
 # Continuation
 Elements arranged in a line or a soft curve are perceived to be more related than those arranged randomly or in a harsh line.
 
-<img src="/post/2020-04-24-geslatt-principles_files/continuation.png" alt="" width="300px" height="300px"/>
+<center> <img src="/post/2020-04-24-geslatt-principles_files/continuation.png" alt="" width="500px" height="200px"/></center>
 
 # Before
 
