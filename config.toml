@@ -1,5 +1,5 @@
 baseurl      = "/"
-title        = "My Blog"
+title        = "Rishabh Kumar"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 
@@ -54,11 +54,11 @@ theme        = "hello-friend-ng"
     title = "Rishabh Kumar"
     subtitle = "Decision and Data Scientist"
     keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Copyright Rishabh Kumar 2020</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Copyright Rishabh Kumar </a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Hi"
+      logoText = "Home"
       logoHomeLink = "/"
     # or
     #
@@ -76,7 +76,7 @@ theme        = "hello-friend-ng"
   [[menu.main]]
     identifier = "About"
     name       = "About me"
-    url        = "/misc/aboutme/"
+    url        = "/about"
     
   [[menu.main]]
     identifier = "Projects"
