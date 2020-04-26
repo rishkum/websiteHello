@@ -12,69 +12,60 @@ toc: yes
 images: ~
 ---
 
-biusfbskr
-## Step 1. Install Hugo
+Gestalt (means form, shape in German) is a group of visual perception principles developed by German psychologists in 1920s. It is built on the theory that “an organized whole, is perceived as greater than the sum of its parts”.
 
-Go to [Hugo releases](https://github.com/spf13/hugo/releases) and download the
-appropriate version for your OS and architecture.
+## Principles
 
-Save it somewhere specific as we will be using it in the next step.
+# Emergence
 
-More complete instructions are available at [Install Hugo](https://gohugo.io/getting-started/installing/)
+![Appearance Gestlatt from dogs](/post/2020-04-24-geslatt-principles_files/emergence.jpg)
 
-## Step 2. Build the Docs
+People tend to identify elements first in their general outlined form. Our brain recognises a simple, well-defined object quicker than a detailed one.
 
-Hugo has its own example site which happens to also be the documentation site
-you are reading right now.
+# Multi-Stability
 
-Follow the following steps:
-
- 1. Clone the [Hugo repository](http://github.com/spf13/hugo)
- 2. Go into the repo
- 3. Run hugo in server mode and build the docs
- 4. Open your browser to http://localhost:1313
-
-Corresponding pseudo commands:
-
-    git clone https://github.com/spf13/hugo
-    cd hugo
-    /path/to/where/you/installed/hugo server --source=./docs
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Press ctrl+c to stop
-
-Once you've gotten here, follow along the rest of this page on your local build.
-
-## Step 3. Change the docs site
-
-Stop the Hugo process by hitting Ctrl+C.
-
-Now we are going to run hugo again, but this time with hugo in watch mode.
-
-    /path/to/hugo/from/step/1/hugo server --source=./docs --watch
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Watching for changes in /Users/spf13/Code/hugo/docs/content
-    > Press ctrl+c to stop
+People will often interpret ambiguous objects in more than one ways. Our brains will bounce back and forth between the alternatives seeking certainty. As a result, one view will become more dominant while the other one will get harder to see.
 
 
-Open your [favorite editor](http://vim.spf13.com) and change one of the source
-content pages. How about changing this very file to *fix the typo*. How about changing this very file to *fix the typo*.
+![MS](/post/2020-04-24-geslatt-principles_files/refiliction1.jpg){width=400px height=350px}
 
-Content files are found in `docs/content/`. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-`docs/content/overview/quickstart.md`.
+## Invariance
+People can recognise simple objects independently of their rotation, scale and translation. Our brain can perceive objects from different perspectives, despite their different appearance.
 
-Change and save this file.. Notice what happened in your terminal.
+![Invarience](/post/2020-04-24-geslatt-principles_files/invarience.jpg)
 
-    > Change detected, rebuilding site
+# Proximity
+Elements arranged close to each other are perceived as more related than those placed further apart. This way different elements are viewed mainly as a group rather than as individual elements.
 
-    > 29 pages created
-    > 0 tags index created
-    > in 26 ms
+![Proximity](/post/2020-04-24-geslatt-principles_files/proximity.png)
 
-Refresh the browser and
+
+# Similarity
+Elements sharing similar visual characteristics are perceived to be more related than those not sharing similar characteristics
+
+![Similarity](/post/2020-04-24-geslatt-principles_files/similarity.jpeg)
+
+# Closure
+A group of elements are often perceived to be a single recognisable form or figure. The Closure also occurs when an object is incomplete, or parts of it are not enclosed.
+
+![closure](/post/2020-04-24-geslatt-principles_files/closure.png)<img src="/post/2020-04-24-geslatt-principles_files/closure.png" alt="" width="100px" height="100px"/>
+
+# Symmetry
+Symmetrical elements tend to perceived as belonging together regardless of their distance, giving us a feeling of solidity and order.
+
+![closure](/post/2020-04-24-geslatt-principles_files/symetry.png)<img src="/post/2020-04-24-geslatt-principles_files/symetry.png" alt="symetry" width="200px" height="200px"/>
+
+# Continuation
+Elements arranged in a line or a soft curve are perceived to be more related than those arranged randomly or in a harsh line.
+
+<img src="/post/2020-04-24-geslatt-principles_files/continuation.png" alt="" width="300px" height="300px"/>
+
+# Before
+
+
+
+# After
+
+
+
+

@@ -5,13 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Rishabh">
-<meta name="description" content="biusfbskr
-Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:" />
+<meta name="description" content="Gestalt (means form, shape in German) is a group of visual perception principles developed by German psychologists in 1920s. It is built on the theory that “an organized whole, is perceived as greater than the sum of its parts”.
+Principles Emergence People tend to identify elements first in their general outlined form. Our brain recognises a simple, well-defined object quicker than a detailed one.
+Multi-Stability People will often interpret ambiguous objects in more than one ways." />
 <meta name="keywords" content=", Communication, Visualisation" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -39,16 +35,12 @@ Follow the following steps:
 
 
 <meta itemprop="name" content="Geslatt Principles">
-<meta itemprop="description" content="biusfbskr
-Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:">
+<meta itemprop="description" content="Gestalt (means form, shape in German) is a group of visual perception principles developed by German psychologists in 1920s. It is built on the theory that “an organized whole, is perceived as greater than the sum of its parts”.
+Principles Emergence People tend to identify elements first in their general outlined form. Our brain recognises a simple, well-defined object quicker than a detailed one.
+Multi-Stability People will often interpret ambiguous objects in more than one ways.">
 <meta itemprop="datePublished" content="2020-04-24T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-04-24T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="295">
+<meta itemprop="wordCount" content="263">
 <meta itemprop="image" content="/"/>
 
 
@@ -58,13 +50,9 @@ Follow the following steps:
 <meta name="twitter:image" content="/"/>
 
 <meta name="twitter:title" content="Geslatt Principles"/>
-<meta name="twitter:description" content="biusfbskr
-Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:"/>
+<meta name="twitter:description" content="Gestalt (means form, shape in German) is a group of visual perception principles developed by German psychologists in 1920s. It is built on the theory that “an organized whole, is perceived as greater than the sum of its parts”.
+Principles Emergence People tend to identify elements first in their general outlined form. Our brain recognises a simple, well-defined object quicker than a detailed one.
+Multi-Stability People will often interpret ambiguous objects in more than one ways."/>
 
 
 
@@ -146,9 +134,11 @@ Follow the following steps:
                 <div class="toc-title">Table of Contents</div>
                     <nav id="TableOfContents">
   <ul>
-    <li><a href="#step-1-install-hugo">Step 1. Install Hugo</a></li>
-    <li><a href="#step-2-build-the-docs">Step 2. Build the Docs</a></li>
-    <li><a href="#step-3-change-the-docs-site">Step 3. Change the docs site</a></li>
+    <li><a href="#principles">Principles</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#invariance">Invariance</a></li>
   </ul>
 </nav>
                 </aside>
@@ -157,57 +147,34 @@ Follow the following steps:
             
 
             <div class="post-content">
-                <p>biusfbskr</p>
-<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
-<p>Go to <a href="https://github.com/spf13/hugo/releases">Hugo releases</a> and download the
-appropriate version for your OS and architecture.</p>
-<p>Save it somewhere specific as we will be using it in the next step.</p>
-<p>More complete instructions are available at <a href="https://gohugo.io/getting-started/installing/">Install Hugo</a></p>
-<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
-<p>Hugo has its own example site which happens to also be the documentation site
-you are reading right now.</p>
-<p>Follow the following steps:</p>
-<ol>
-<li>Clone the <a href="http://github.com/spf13/hugo">Hugo repository</a></li>
-<li>Go into the repo</li>
-<li>Run hugo in server mode and build the docs</li>
-<li>Open your browser to http://localhost:1313</li>
-</ol>
-<p>Corresponding pseudo commands:</p>
-<pre><code>git clone https://github.com/spf13/hugo
-cd hugo
-/path/to/where/you/installed/hugo server --source=./docs
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Once you&rsquo;ve gotten here, follow along the rest of this page on your local build.</p>
-<h2 id="step-3-change-the-docs-site">Step 3. Change the docs site</h2>
-<p>Stop the Hugo process by hitting Ctrl+C.</p>
-<p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
-<pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Open your <a href="http://vim.spf13.com">favorite editor</a> and change one of the source
-content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
-<p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-<code>docs/content/overview/quickstart.md</code>.</p>
-<p>Change and save this file.. Notice what happened in your terminal.</p>
-<pre><code>&gt; Change detected, rebuilding site
-
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 26 ms
-</code></pre>
-<p>Refresh the browser and</p>
+                <p>Gestalt (means form, shape in German) is a group of visual perception principles developed by German psychologists in 1920s. It is built on the theory that “an organized whole, is perceived as greater than the sum of its parts”.</p>
+<h2 id="principles">Principles</h2>
+<h1 id="emergence">Emergence</h1>
+<p><img src="/post/2020-04-24-geslatt-principles_files/emergence.jpg" alt="Appearance Gestlatt from dogs"></p>
+<p>People tend to identify elements first in their general outlined form. Our brain recognises a simple, well-defined object quicker than a detailed one.</p>
+<h1 id="multi-stability">Multi-Stability</h1>
+<p>People will often interpret ambiguous objects in more than one ways. Our brains will bounce back and forth between the alternatives seeking certainty. As a result, one view will become more dominant while the other one will get harder to see.</p>
+<p><img src="/post/2020-04-24-geslatt-principles_files/refiliction1.jpg" alt="MS">{width=400px height=350px}</p>
+<h2 id="invariance">Invariance</h2>
+<p>People can recognise simple objects independently of their rotation, scale and translation. Our brain can perceive objects from different perspectives, despite their different appearance.</p>
+<p><img src="/post/2020-04-24-geslatt-principles_files/invarience.jpg" alt="Invarience"></p>
+<h1 id="proximity">Proximity</h1>
+<p>Elements arranged close to each other are perceived as more related than those placed further apart. This way different elements are viewed mainly as a group rather than as individual elements.</p>
+<p><img src="/post/2020-04-24-geslatt-principles_files/proximity.png" alt="Proximity"></p>
+<h1 id="similarity">Similarity</h1>
+<p>Elements sharing similar visual characteristics are perceived to be more related than those not sharing similar characteristics</p>
+<p><img src="/post/2020-04-24-geslatt-principles_files/similarity.jpeg" alt="Similarity"></p>
+<h1 id="closure">Closure</h1>
+<p>A group of elements are often perceived to be a single recognisable form or figure. The Closure also occurs when an object is incomplete, or parts of it are not enclosed.</p>
+<p><img src="/post/2020-04-24-geslatt-principles_files/closure.png" alt="closure"><!-- raw HTML omitted --></p>
+<h1 id="symmetry">Symmetry</h1>
+<p>Symmetrical elements tend to perceived as belonging together regardless of their distance, giving us a feeling of solidity and order.</p>
+<p><img src="/post/2020-04-24-geslatt-principles_files/symetry.png" alt="closure"><!-- raw HTML omitted --></p>
+<h1 id="continuation">Continuation</h1>
+<p>Elements arranged in a line or a soft curve are perceived to be more related than those arranged randomly or in a harsh line.</p>
+<!-- raw HTML omitted -->
+<h1 id="before">Before</h1>
+<h1 id="after">After</h1>
 
             </div>
         </article>
