@@ -3,6 +3,7 @@ title        = "Rishabh Kumar"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 enableEmoji = true
+disqusShortname = "rishabhkumar"
 
 [params]
   dateform        = "Jan 2, 2006"
