@@ -2,6 +2,7 @@ baseurl      = "/"
 title        = "Rishabh Kumar"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
+enableEmoji = true
 
 [params]
   dateform        = "Jan 2, 2006"
