@@ -38,7 +38,7 @@ I live in a democracy and believe in democracies 💕 so I did find this idea a 
 I live in a democracy and believe in democracies 💕 so I did find this idea a bit off-putting.">
 <meta itemprop="datePublished" content="2020-05-11T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-05-11T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="433">
+<meta itemprop="wordCount" content="584">
 <meta itemprop="image" content="/"/>
 
 
@@ -135,30 +135,25 @@ I live in a democracy and believe in democracies 💕 so I did find this idea a 
                 <p>Over the past weeks I have had conversation with families and friends about coronavirus and about how different governments are responding to the challenge. One point that was mentioned often in the discussion was that its the countries with stronger government that have stayed off the crisis whereas democratic countries are the ones who cannot fight off the pandemic. Just because democracies make it slow.</p>
 <p>I live in a democracy and believe in democracies 💕 so I did find this idea a bit off-putting. But then arguing an argument with blanket statement isn’t the best things to do. To find the real story, one has to dig in and figure out what is actually happening. Even though data is still coming across here, we still have some interesting stats to make an evidenced based guess about what is happening.</p>
 <p><strong>On the first look:</strong></p>
-<p><img src="/post/2020-05-11-democracies-in-the-time-of-covid_files/democracies_Weak.png" alt="">
-Are democracies slow?</p>
-<p>Using data from The Economist and the John Hopkins, the outlook for democracies do look a bit grim. There is a pretty positive relationship with the level of democracy one country is and the number of corona cases that country has.</p>
-<p>What could be the reason for this? Perhaps it&rsquo;s just that democracies were slow at responding. But then looking at the data does not really look like that.:</p>
-<p><img src="/post/2020-05-11-democracies-in-the-time-of-covid_files/lockdown_implementation.png" alt=""></p>
+<p>Using data from The Economist and the John Hopkins, the outlook for democracies do look a bit grim. There is a pretty positive relationship with the level of democracy one country is and the number of corona cases that country has.  What could be the reason for this?</p>
+<p><img src="/post/2020-05-11-democracies-in-the-time-of-covid_files/democracies_Weak.png" alt=""></p>
+<p><strong>Are democracies slow?</strong></p>
+<pre><code class="language-{r," data-lang="{r,">par(mar = c(4, 4, .1, .1))
+plot(pressure, pch = 19, type = 'b')
+</code></pre><p>knitr:: include_graphics(&lsquo;post/2020-05-11-democracies-in-the-time-of-covid_files/lockdown_implementation.png&rsquo;)</p>
+<p>Perhaps it&rsquo;s just that democracies were slow at responding to the crisis. Looking at the data it does not really look like that. There were some fully democratic countries who took their in imposing lockdown  after observing the first case of coronavirus.</p>
+<p>Nonetheless, there is not a  statistically significant relationship between the level of democracy in a country and the swiftness of strict response. One possible reason for this could be all countries were in the hope that this virus would miraculously vanish. Imposing lockdown is expensive and perhaps countries wanted to avoid these costs.</p>
 <p><strong>Does the response even matter?</strong></p>
-<p>Using data from The Economist and the John Hopkins, the outlook for democracies do look a bit grim. There is a pretty positive relationship with the level of democracy one country is and the number of corona cases that country has.</p>
-<p>What could be the reason for this? Perhaps it&rsquo;s just that democracies were slow at responding. But then looking at  the data does not really look like that.:</p>
+<p>This an important question. If countries were imposing lockdown would their cases been lower. It turns out there is a positive relationship among number of days a country takes to imposing lockdown and the total cases per million present in that country.</p>
 <p><img src="/post/2020-05-11-democracies-in-the-time-of-covid_files/loackdown_effects.png" alt=""></p>
-<p><strong>Let&rsquo;s do some analysis. . Smaller model to bigger</strong>
-Economist use regressions to predict how one or multiple factors can affect something. Because in life multiple things affect one thing, its difficult to pin-point at what leads to what and what is the major reason behind some event.</p>
+<p><strong>Let&rsquo;s do some analysis&hellip;</strong></p>
+<p>Economists use regressions to predict how one or multiple factors can affect something. Because in life multiple things affect one thing, its difficult to pin-point at what leads to what and what is the major reason behind some event. Multivariate regressions, here help us  control for effect of different variables and then help us isolate their net impact on the variable of interest.</p>
+<p>The following graph shows two models, one where I am using just the democracy index to predict the no of cases in a country and the second model shows where I am using other variables to predict the number of Covid-19 cases in a particular country.</p>
 <p><img src="/post/2020-05-11-democracies-in-the-time-of-covid_files/regression_outputs.png" alt=""></p>
-<p>In the case of Corona virus cases, I created a set of models to understand how different factors affect the level of corona virus cases a country has. More information about the dataset and the analysis can be found on my Github.</p>
 <p><strong>What it all means</strong>
 If you are only considering the effect of level of democracy to the level of cases then you do see some relationships among that. However when you start up adding other factors such as average age, average temperature, Gap, per-capita things start to change.</p>
-<p>Correlation is not causation<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p>dhghfhgfh <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>
+<p>The analysis shows that if a country is democratic and has an older population only then it would show increases in the number of cover cases. On itself a democracy does not increase the level of covid cases in a country.</p>
+<p>Media often narrowly focuses on a particular case and then declares it as a norm. It&rsquo;s crucial that we think about these statements critically and then put our belief in them.</p>
 
             </div>
         </article>
