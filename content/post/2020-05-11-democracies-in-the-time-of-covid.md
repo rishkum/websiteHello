@@ -28,11 +28,6 @@ Using data from The Economist and the John Hopkins, the outlook for democracies 
 
 **Are democracies slow?**
 
-```{r, eval=T}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, pch = 19, type = 'b')
-```
-
 knitr:: include_graphics('post/2020-05-11-democracies-in-the-time-of-covid_files/lockdown_implementation.png')
 
 

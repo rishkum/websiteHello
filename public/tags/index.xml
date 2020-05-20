@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copyright Rishabh Kumar &lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>analysis</title>
+      <link>/tags/analysis/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>covid19</title>
+      <link>/tags/covid19/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data visualisation</title>
+      <link>/tags/data-visualisation/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-visualisation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>coronavirus</title>
@@ -18,24 +54,6 @@
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/coronavirus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>covid19</title>
-      <link>/tags/covid19/</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/covid19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data visualisation</title>
-      <link>/tags/data-visualisation/</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-visualisation/</guid>
       <description></description>
     </item>
     

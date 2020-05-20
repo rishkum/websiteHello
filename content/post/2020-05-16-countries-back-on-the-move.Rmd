@@ -1,0 +1,27 @@
+---
+title: Countries back on the move
+author: Rishabh Kumar
+date: '2020-05-16'
+slug: countries-back-on-the-move
+categories:
+  - covid
+  - data visualisation
+tags:
+  - covid19
+  - data visualisation
+  - analysis
+  - data science
+images: ~
+enableEmoji: true
+comments: true
+---
+Countries are getting back.
+
+
+![UK on the move](/post/2020-05-16-countries-back-on-the-move_files/tvl_uk.svg)
+
+
+![US on the move](/post/2020-05-16-countries-back-on-the-move_files/tvl_us.png)
+
+
+![World on the move](/post/2020-05-16-countries-back-on-the-move_files/tvl_wld.png)

@@ -13,32 +13,57 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+    <loc>/tags/analysis/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/coronavirus/</loc>
-    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/countries-back-on-the-move/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/covid/</loc>
-    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/covid19/</loc>
-    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-science/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/data-visualisation/</loc>
-    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/data-visualisation/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/coronavirus/</loc>
     <lastmod>2020-05-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,17 +73,7 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/regression/</loc>
-    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-05-11T00:00:00+00:00</lastmod>
   </url>
   
