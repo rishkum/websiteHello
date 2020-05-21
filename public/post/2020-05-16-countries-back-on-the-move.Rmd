@@ -15,13 +15,14 @@ images: ~
 enableEmoji: true
 comments: true
 ---
-Countries are getting back.
+It has been 112 days since WHO declared the new Coronavirus epidemic as a pandemic. Since then we saw multiple countries imposing partial lockdowns to make people work from home more to completete shutdowns of their nations where people were only allowed to leave their homes for bare essestials.
+
+Since then a lot has happened. There is a small [hope](ft.com) that vaccines will be out soon and some european countries have started opening up their economies too. The question remains how strong is this opening up seen among the population? 
+
+I analyse Apple's mobility dataset to answer this main question. What I find generally is that people way before the peaks had started to move around. Another common pattern remains that people are shunning public transit to walk and drive more.
 
 
 ![UK on the move](/post/2020-05-16-countries-back-on-the-move_files/tvl_uk.svg)
 
-
-![US on the move](/post/2020-05-16-countries-back-on-the-move_files/tvl_us.png)
-
-
+![US seems to be on the move](/post/2020-05-16-countries-back-on-the-move_files/tvl_us.png)
 ![World on the move](/post/2020-05-16-countries-back-on-the-move_files/tvl_wld.png)
