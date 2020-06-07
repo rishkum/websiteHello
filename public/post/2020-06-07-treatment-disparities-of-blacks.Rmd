@@ -11,7 +11,11 @@ tags:
   - data science
   - blm
   - BlackLivesMatters
-toc: no
 images: ~
 ---
 
+![](/post/2020-06-07-treatment-disparities-of-blacks_files/Doallracessuffer_equally.png)
+
+![](/post/2020-06-07-treatment-disparities-of-blacks_files/time.png)
+
+![](/post/2020-06-07-treatment-disparities-of-blacks_files/time.png)
