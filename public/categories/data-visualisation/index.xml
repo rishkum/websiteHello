@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copyright Rishabh Kumar &lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/data-visualisation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Treatment disparities of Blacks</title>
+      <link>/post/treatment-disparities-of-blacks/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/treatment-disparities-of-blacks/</guid>
+      <description> no  </description>
+    </item>
     
     <item>
       <title>Countries back on the move</title>

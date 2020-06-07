@@ -1,0 +1,17 @@
+---
+title: Treatment disparities of Blacks
+author: Rishabh Kumar
+date: '2020-06-07'
+slug: treatment-disparities-of-blacks
+categories:
+  - data visualisation
+  - Visualisation
+tags:
+  - analysis
+  - data science
+  - blm
+  - BlackLivesMatters
+toc: no
+images: ~
+---
+
