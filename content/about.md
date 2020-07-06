@@ -6,8 +6,8 @@ aliases:
 author:
   name: Rishabh Kumar
 date: "2020-04-26"
-title: About Rishabh
 ---
+
 
 I work at a boutique management consultancy which specialises in behavioural and data science. Working with clients across sectors from telecom to financial to media has given me immense understanding about applying behavioural and data science to improve products and services. 
 
@@ -20,3 +20,5 @@ Beyond my academic and professional life, I try to make a difference. During my 
 Personal and professional development at the core of my personality; whether that be my technical abilities, in personal projects such as learning a new language (español), I am always determined to go above and beyond my goals for continuous improvement. 
 
 You can find me on Twitter: [@RishabhKumar_](https://twitter.com/rishabhkumar_) or get in touch at [rishkr144@gmail.com](mailto:rishkr144@gmail.com])
+
+![RK](/./about_files/rk.jpeg) 

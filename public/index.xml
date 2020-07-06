@@ -72,7 +72,7 @@ I live in a democracy and believe in democracies 💕 so I did find this idea a 
     </item>
     
     <item>
-      <title>About Rishabh</title>
+      <title></title>
       <link>/about/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -90,17 +90,6 @@ My colleagues describe me as a sociable and entrepreneurial person. Last year I 
       <description>Gestalt (means form, shape in German) is a group of visual perception principles developed by German psychologists in 1920s. It is built on the theory that “an organized whole, is perceived as greater than the sum of its parts”.
 Principles Emergence People tend to identify elements first in their general outlined form. Our brain recognises a simple, well-defined object quicker than a detailed one.
 Multi-Stability People will often interpret ambiguous objects in more than one ways.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
     
     <item>
