@@ -1,0 +1,23 @@
+---
+title: Representation of women in comics
+author: Rishabh Kumar
+date: '2020-07-06'
+slug: representation-of-women-in-comics
+categories:
+  - data visualisation
+  - R
+  - TidyTuesday
+tags:
+  - analysis
+  - Female
+  - Comics
+  - Femalesin comics
+toc: no
+images: ~
+---
+
+![Different Series and Bechdel Levels](/post/2020-07-06-representation-of-women-in-comics_files/bechdel1.png)
+
+![ Bechdel Levels over time average](/post/2020-07-06-representation-of-women-in-comics_files/bechdel2.png)
+
+![Bechdel Levels over time per comic](/post/2020-07-06-representation-of-women-in-comics_files/Bechdel3.png)
