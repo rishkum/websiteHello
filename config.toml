@@ -33,19 +33,19 @@ enableEmoji = true
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/"
+    url  = "https://twitter.com/rishabhkumar_"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:kumarrishabh14@hotmail.com"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/rishkum"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "https://www.linkedin.com/in/rishabhkumar1/"
 
 
 [taxonomies]
