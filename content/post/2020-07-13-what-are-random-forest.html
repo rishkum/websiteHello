@@ -1,0 +1,166 @@
+---
+title: What are Random Forest?
+author: Rishabh Kumar
+date: '2020-07-13'
+slug: what-are-random-forest
+categories:
+  - R
+  - Machine Learning
+  - Data Science
+  - AI
+tags:
+  - data science
+  - How to do random forest
+  - What are random forest
+toc: no
+images: ~
+---
+
+
+<div id="TOC">
+no
+</div>
+
+<p>Random forest algorithm helps us to classify items into various groupings.There are two kinds of random forest algorithms: one for regressiona and one for clasifications. Both have similar underlying philosophies.</p>
+<p>Before getting into random forest its important to know the workings of the Decision tree algorithm. It works in a way to find features that will split the data in resulting groups that are as different from each other and the memebers of th these groups are as similar to each other as possible.</p>
+<div id="classification" class="section level1">
+<h1>Classification</h1>
+<p>See the plot below to differentiate the blue circles and red triangles, the DT algorithm will split at point 3 and point 4 drawing a straight line to make the clusters as different to each other as possible. Simply it takes into account the majority view and then classifies the data based on that.</p>
+</div>
+<div id="regression" class="section level1">
+<h1>Regression</h1>
+<p>When it comes to regresstion the style of data changes as dependency comes into place. So the algorithm divides the data into various parts and then in a way classifies it. This also implies that the regression is peicewise cosntant [INSErt LInk]</p>
+</div>
+<div id="random-forest-example" class="section level1">
+<h1>Random Forest example</h1>
+<p>Random forest then relies on the wisdom of the crowds. So Basically the data is split into many parts like what is done in bootstrapping and then analysed.</p>
+<p>Example</p>
+<pre class="r"><code>library(tidyverse)
+library(stringi)
+library(styler)
+
+library(caret)
+library(klaR)
+
+coffee_ratings &lt;- readr::read_csv(&quot;https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-07/coffee_ratings.csv&quot;)
+
+
+# Remove outlier
+mdata &lt;- coffee_ratings %&gt;% dplyr::select(-country_of_origin, -variety) %&gt;%  filter( total_cup_points &gt;25)
+
+
+m1 &lt;- lm(total_cup_points ~
+     species + 
+     aroma +
+     flavor +
+     acidity + 
+     color +
+     sweetness + 
+     altitude_mean_meters +
+     processing_method, 
+     data = mdata) 
+
+
+model_Data &lt;- m1$model
+# Trying K fold cross validation
+set.seed(101) # Set Seed so that same sample can be reproduced in future also
+model_Data$total_cup_points &lt;- ifelse(model_Data$total_cup_points &gt;82.09, &quot;Good&quot;,
+                                      &quot;Bad&quot;)
+# Now Selecting 50% of data as sample from total &#39;n&#39; rows of the data
+sample &lt;- sample.int(n = nrow(model_Data), size = floor(.50*nrow(model_Data)), replace = F)
+train &lt;- model_Data[sample, ]
+test  &lt;- model_Data[-sample, ]
+
+
+
+# Define train control for k fold cross validation
+train_control &lt;- trainControl(method=&quot;LGOCV&quot;, number=10)
+# Fit Naive Bayes Model
+model &lt;- train(total_cup_points~.,
+               data=train,
+               trControl=train_control,
+               method=&quot;rf&quot;,
+               importance=T)
+
+# Summarise Results
+print(model)</code></pre>
+<pre><code>## Random Forest 
+## 
+## 467 samples
+##   8 predictor
+##   2 classes: &#39;Bad&#39;, &#39;Good&#39; 
+## 
+## No pre-processing
+## Resampling: Repeated Train/Test Splits Estimated (10 reps, 75%) 
+## Summary of sample sizes: 351, 351, 351, 351, 351, 351, ... 
+## Resampling results across tuning parameters:
+## 
+##   mtry  Accuracy   Kappa    
+##    2    0.8663793  0.7164522
+##    7    0.8646552  0.7168245
+##   13    0.8620690  0.7121044
+## 
+## Accuracy was used to select the optimal model using the largest value.
+## The final value used for the model was mtry = 2.</code></pre>
+<pre class="r"><code>summary(model)</code></pre>
+<pre><code>##                 Length Class      Mode     
+## call               5   -none-     call     
+## type               1   -none-     character
+## predicted        467   factor     numeric  
+## err.rate        1500   -none-     numeric  
+## confusion          6   -none-     numeric  
+## votes            934   matrix     numeric  
+## oob.times        467   -none-     numeric  
+## classes            2   -none-     character
+## importance        52   -none-     numeric  
+## importanceSD      39   -none-     numeric  
+## localImportance    0   -none-     NULL     
+## proximity          0   -none-     NULL     
+## ntree              1   -none-     numeric  
+## mtry               1   -none-     numeric  
+## forest            14   -none-     list     
+## y                467   factor     numeric  
+## test               0   -none-     NULL     
+## inbag              0   -none-     NULL     
+## xNames            13   -none-     character
+## problemType        1   -none-     character
+## tuneValue          1   data.frame list     
+## obsLevels          2   -none-     character
+## param              1   -none-     list</code></pre>
+<pre class="r"><code>model$results</code></pre>
+<pre><code>##   mtry  Accuracy     Kappa AccuracySD    KappaSD
+## 1    2 0.8663793 0.7164522 0.02412767 0.05055639
+## 2    7 0.8646552 0.7168245 0.02539489 0.05214482
+## 3   13 0.8620690 0.7121044 0.02537862 0.05390591</code></pre>
+<pre class="r"><code>model$finalModel</code></pre>
+<pre><code>## 
+## Call:
+##  randomForest(x = x, y = y, mtry = param$mtry, importance = ..1) 
+##                Type of random forest: classification
+##                      Number of trees: 500
+## No. of variables tried at each split: 2
+## 
+##         OOB estimate of  error rate: 13.92%
+## Confusion matrix:
+##      Bad Good class.error
+## Bad  147   39  0.20967742
+## Good  26  255  0.09252669</code></pre>
+<pre class="r"><code>gbmImp &lt;- varImp(model)
+gbmImp</code></pre>
+<pre><code>## rf variable importance
+## 
+##                                            Importance
+## flavor                                        100.000
+## acidity                                        85.754
+## aroma                                          66.694
+## sweetness                                      30.981
+## altitude_mean_meters                           18.404
+## colorBluish-Green                              14.379
+## processing_methodOther                          9.987
+## colorGreen                                      9.783
+## processing_methodSemi-washed / Semi-pulped      7.041
+## processing_methodPulped natural / honey         6.773
+## colorNone                                       5.189
+## speciesRobusta                                  3.408
+## processing_methodWashed / Wet                   0.000</code></pre>
+</div>

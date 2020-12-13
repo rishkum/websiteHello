@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on Rishabh Kumar</title>
-    <link>/categories/r/</link>
-    <description>Recent content in R on Rishabh Kumar</description>
+    <title>AI on Rishabh Kumar</title>
+    <link>/categories/ai/</link>
+    <description>Recent content in AI on Rishabh Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copyright Rishabh Kumar &lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/ai/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <guid>/post/what-are-random-forest/</guid>
       <description>no  Random forest algorithm helps us to classify items into various groupings.There are two kinds of random forest algorithms: one for regressiona and one for clasifications. Both have similar underlying philosophies.
 Before getting into random forest its important to know the workings of the Decision tree algorithm. It works in a way to find features that will split the data in resulting groups that are as different from each other and the memebers of th these groups are as similar to each other as possible.</description>
-    </item>
-    
-    <item>
-      <title>Representation of women in comics</title>
-      <link>/post/representation-of-women-in-comics/</link>
-      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/representation-of-women-in-comics/</guid>
-      <description> </description>
     </item>
     
   </channel>
