@@ -15,4 +15,4 @@ images: ~
 ---
 
 
-![](/post/2020-12-13-mental-health-among-british-adults-since-march_files/covid_distress.png)
+![](/post/2020-12-13-mental-health-among-british-adults-since-march_files/covid_distress2.png)
