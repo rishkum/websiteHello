@@ -10,8 +10,8 @@ categories:
 tags:
   - covid19
   - data visualisation
-toc: no
+comments: no
 images: ~
 ---
 
-Draft 
+Draft
