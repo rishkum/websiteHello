@@ -1,0 +1,17 @@
+---
+title: Mental Health among British adults since March
+author: Rishabh Kumar
+date: '2020-12-13'
+slug: mental-health-among-british-adults-since-march
+categories:
+  - covid
+  - data visualisation
+  - R
+tags:
+  - covid19
+  - data visualisation
+comments: no
+images: ~
+---
+
+Draft
