@@ -34,6 +34,16 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>Creating ML apps with Github Co-pilot</title>
+      <link>/post/creating-ml-apps-with-github-co-pilot/</link>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creating-ml-apps-with-github-co-pilot/</guid>
+      <description>Recently I got hold of a beta version of GitHub co-pilot. GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. GitHub Copilot draws context from comments and code, and suggests individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a new AI system created by OpenAI.
+How good is it? According to Github: The model got their requests right about 43% of the time on the first try, and 57% of the time when allowed 10 attempts.</description>
+    </item>
+    
+    <item>
       <title>Mental Health among British adults since March</title>
       <link>/post/mental-health-among-british-adults-since-march/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>

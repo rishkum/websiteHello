@@ -1,0 +1,52 @@
+---
+title: Creating ML apps with Github Co-pilot
+author: Rishabh Kumar
+date: '2021-11-21'
+slug: creating-ml-apps-with-github-co-pilot
+categories:
+  - ML
+  - AI
+  - Automation
+  - NLP
+  - Data Science
+tags:
+  - AI
+  - analysis
+  - Models
+  - Machine Learning
+  - Automation
+comments: yes
+images: ~
+---
+
+Recently I got hold of a beta version of GitHub co-pilot. [GitHub Copilot](https://copilot.github.com) is an AI pair programmer that helps you write code faster and with less work. GitHub Copilot draws context from comments and code, and suggests individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a new AI system created by OpenAI. 
+
+### How good is it?
+According to Github: The model got their requests right about 43% of the time on the first try, and 57% of the time when allowed 10 attempts. And it’s getting smarter all the time. In my experience it was right about 70% right when allowed just 2 attempts.
+
+### This looks super cool:
+![](/post/2021-11-21-creating-ml-apps-with-github-co-pilot_files/My-Movie-1.gif)
+
+# Pros and cons
+
+## Pros
+- You can build a MVP in a matter of hours instead of days
+- You get exposed to new libraries and methods
+- You get a new perspective to what you were thinking
+
+
+## Cons 
+- There could be security bugs in the code
+- The code you get isn't the most optimal
+- Programmers might rely too much on computer's suggestion
+
+## Automation taking automator's job?
+I think not. Coding is not a manual process like assembling cars. There are some similaries in certain products - for example if you were to classify text there are some common steps (generating word embeddings). Neverthe less coding still requires ample amount of creativity and flexibility from the coder. Having a tool like this would be having an assistant like R2D2 from Star Wars. The co-pilot can give you very useful suggestions but they would need the the pilot's creativity to make an impact.
+
+# Where can we deployt this?
+
+Currently this tool can be very useful for companies that are trying to train their staff in digital skills. Having an exposure to how code is written will help people gain an understanding. The interface itself is really cool and feels like magic, we should leverage this to entice people who are keen on coding to start something. 
+
+
+
+

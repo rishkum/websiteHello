@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Rishabh Kumar">
+<meta name="description" content="Recently I got hold of a beta version of GitHub co-pilot. GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. GitHub Copilot draws context from comments and code, and suggests individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a new AI system created by OpenAI.
+How good is it? According to Github: The model got their requests right about 43% of the time on the first try, and 57% of the time when allowed 10 attempts." />
+<meta name="keywords" content=", AI, analysis, Models, Machine Learning, Automation" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="/post/creating-ml-apps-with-github-co-pilot/" />
+
+
+    <title>
+        
+            Creating ML apps with Github Co-pilot :: Rishabh Kumar  — Decision and Data Scientist
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.753fac8f03736f0edc9be411eb20cee875dd7bb8e73c8155fbf6a629c863f4ca.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Creating ML apps with Github Co-pilot">
+<meta itemprop="description" content="Recently I got hold of a beta version of GitHub co-pilot. GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. GitHub Copilot draws context from comments and code, and suggests individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a new AI system created by OpenAI.
+How good is it? According to Github: The model got their requests right about 43% of the time on the first try, and 57% of the time when allowed 10 attempts.">
+<meta itemprop="datePublished" content="2021-11-21T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-11-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="326">
+<meta itemprop="image" content="/"/>
+
+
+
+<meta itemprop="keywords" content="AI,analysis,Models,Machine Learning,Automation," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="Creating ML apps with Github Co-pilot"/>
+<meta name="twitter:description" content="Recently I got hold of a beta version of GitHub co-pilot. GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. GitHub Copilot draws context from comments and code, and suggests individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a new AI system created by OpenAI.
+How good is it? According to Github: The model got their requests right about 43% of the time on the first try, and 57% of the time when allowed 10 attempts."/>
+
+
+
+
+
+    <meta property="article:section" content="ML" />
+
+    <meta property="article:section" content="AI" />
+
+    <meta property="article:section" content="Automation" />
+
+    <meta property="article:section" content="NLP" />
+
+    <meta property="article:section" content="Data Science" />
+
+
+
+    <meta property="article:published_time" content="2021-11-21 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">Home</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about">About me</a></li><li><a href="/post">Blog</a></li><li><a href="/post">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="/post/creating-ml-apps-with-github-co-pilot/">Creating ML apps with Github Co-pilot</a></h2>
+
+            
+
+            <div class="post-content">
+                
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Recently I got hold of a beta version of GitHub co-pilot. <a href="https://copilot.github.com">GitHub Copilot</a> is an AI pair programmer that helps you write code faster and with less work. GitHub Copilot draws context from comments and code, and suggests individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a new AI system created by OpenAI.</p>
+<div id="how-good-is-it" class="section level3">
+<h3>How good is it?</h3>
+<p>According to Github: The model got their requests right about 43% of the time on the first try, and 57% of the time when allowed 10 attempts. And it’s getting smarter all the time. In my experience it was right about 70% right when allowed just 2 attempts.</p>
+</div>
+<div id="this-looks-super-cool" class="section level3">
+<h3>This looks super cool:</h3>
+<p><img src="/post/2021-11-21-creating-ml-apps-with-github-co-pilot_files/My-Movie-1.gif" /></p>
+</div>
+<div id="pros-and-cons" class="section level1">
+<h1>Pros and cons</h1>
+<div id="pros" class="section level2">
+<h2>Pros</h2>
+<ul>
+<li>You can build a MVP in a matter of hours instead of days</li>
+<li>You get exposed to new libraries and methods</li>
+<li>You get a new perspective to what you were thinking</li>
+</ul>
+</div>
+<div id="cons" class="section level2">
+<h2>Cons</h2>
+<ul>
+<li>There could be security bugs in the code</li>
+<li>The code you get isn’t the most optimal</li>
+<li>Programmers might rely too much on computer’s suggestion</li>
+</ul>
+</div>
+<div id="automation-taking-automators-job" class="section level2">
+<h2>Automation taking automator’s job?</h2>
+<p>I think not. Coding is not a manual process like assembling cars. There are some similaries in certain products - for example if you were to classify text there are some common steps (generating word embeddings). Neverthe less coding still requires ample amount of creativity and flexibility from the coder. Having a tool like this would be having an assistant like R2D2 from Star Wars. The co-pilot can give you very useful suggestions but they would need the the pilot’s creativity to make an impact.</p>
+</div>
+</div>
+<div id="where-can-we-deployt-this" class="section level1">
+<h1>Where can we deployt this?</h1>
+<p>Currently this tool can be very useful for companies that are trying to train their staff in digital skills. Having an exposure to how code is written will help people gain an understanding. The interface itself is really cool and feels like magic, we should leverage this to entice people who are keen on coding to start something.</p>
+</div>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/ai">AI</a></span><span class="tag"><a href="/tags/analysis">analysis</a></span><span class="tag"><a href="/tags/models">Models</a></span><span class="tag"><a href="/tags/machine-learning">Machine Learning</a></span><span class="tag"><a href="/tags/automation">Automation</a></span>
+  				</p>
+			
+			<script src="https://utteranc.es/client.js"
+        repo="rishkum/websiteHello"
+        issue-term="title"
+        label="comments 💬"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Copyright Rishabh Kumar </a></span>
+            <span> <a href="/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io"> Hugo</a> <a>  and theme by </a>
+            <a href="https://github.com/rhazdon">Djordje Atlialp</a></span> <br>
+            
+            <span>Made with <span style="color:red;"> &#10084; </span> by <a href="https://github.com/rishkum">Rishabh Kumar</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr&#43;aEIutW3m0V5F2&#43;IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
+
+
+
+    </body>
+</html>
