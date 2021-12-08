@@ -1,5 +1,5 @@
 ---
-title: Creating ML apps with Github Co-pilot
+title: Github Co-pilot - pros and cons
 author: Rishabh Kumar
 date: '2021-11-21'
 slug: creating-ml-apps-with-github-co-pilot
@@ -23,38 +23,51 @@ images: ~
 
 
 <p>Recently I got hold of a beta version of GitHub co-pilot. <a href="https://copilot.github.com">GitHub Copilot</a> is an AI pair programmer that helps you write code faster and with less work. GitHub Copilot draws context from comments and code, and suggests individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a new AI system created by OpenAI.</p>
-<div id="how-good-is-it" class="section level3">
-<h3>How good is it?</h3>
+<p>It really feels quite magical to use. please see the gif below.</p>
+<div id="how-good-is-it" class="section level2">
+<h2>How good is it?</h2>
 <p>According to Github: The model got their requests right about 43% of the time on the first try, and 57% of the time when allowed 10 attempts. And it’s getting smarter all the time. In my experience it was right about 70% right when allowed just 2 attempts.</p>
 </div>
-<div id="this-looks-super-cool" class="section level3">
-<h3>This looks super cool:</h3>
+<div id="this-looks-super-cool" class="section level2">
+<h2>This looks super cool:</h2>
 <p><img src="/post/2021-11-21-creating-ml-apps-with-github-co-pilot_files/My-Movie-1.gif" /></p>
 </div>
-<div id="pros-and-cons" class="section level1">
-<h1>Pros and cons</h1>
-<div id="pros" class="section level2">
-<h2>Pros</h2>
+<div id="how-is-copilot-created" class="section level2">
+<h2>How is Copilot created</h2>
+<p>Copilot is powered by a deep neural network language model called Codex,a language model based on <a href="https://en.wikipedia.org/wiki/GPT-3">GPT3</a>, that has been trained on massive amounts of open source code from GitHub.</p>
+<p>A language model is trained to guess missing words in a piece of text. The traditional “ngram” approach used in previous years can not do a good job of this, since context is required to guess correctly. Imagine you have two sentences:</p>
+<ul>
+<li>I want to eat hot ______</li>
+<li>Today was a hot _____</li>
+</ul>
+<p>Knowing that in one case “hot day” is correct, but also knowing in another that “hot food” is correct, requires reading and (to some extent) understanding the whole sentence. The Codex language model learns to guess missing symbols in programming code, so it has to learn a lot about the structure and meaning of computer code. This ability is a feature of foundationals language models like BERT and GPTs.</p>
+</div>
+<div id="pros-and-cons" class="section level2">
+<h2>Pros and cons</h2>
+<div id="pros" class="section level3">
+<h3>Pros</h3>
 <ul>
 <li>You can build a MVP in a matter of hours instead of days</li>
 <li>You get exposed to new libraries and methods</li>
 <li>You get a new perspective to what you were thinking</li>
 </ul>
 </div>
-<div id="cons" class="section level2">
-<h2>Cons</h2>
+<div id="cons" class="section level3">
+<h3>Cons</h3>
 <ul>
-<li>There could be security bugs in the code</li>
-<li>The code you get isn’t the most optimal</li>
+<li>There could be <a href="https://arxiv.org/pdf/2108.09293.pdf">security</a> bugs in the code</li>
+<li>The code you get isn’t the most optimal or efficient</li>
 <li>Programmers might rely too much on computer’s suggestion</li>
+<li>AI Bias can creep in if programmers are not careful</li>
+<li>Human cognitive biases can also creep in. Namely: <a href="https://www.paconsulting.com/insights/what-is-automation-bias-how-to-prevent/">automation bias</a> and <a href="https://thedecisionlab.com/biases/anchoring-bias/">anchoring bias</a></li>
 </ul>
+</div>
 </div>
 <div id="automation-taking-automators-job" class="section level2">
 <h2>Automation taking automator’s job?</h2>
-<p>I think not. Coding is not a manual process like assembling cars. There are some similaries in certain products - for example if you were to classify text there are some common steps (generating word embeddings). Neverthe less coding still requires ample amount of creativity and flexibility from the coder. Having a tool like this would be having an assistant like R2D2 from Star Wars. The co-pilot can give you very useful suggestions but they would need the the pilot’s creativity to make an impact.</p>
+<p>I think not. Coding is not a manual process like assembling cars. Nevertheless there are some similarities - for example if you were to classify text there are some common steps (generating word embeddings); still coding requires creativity and flexibility from the coder. Having a tool like this would be having an assistant like R2D2 from Star Wars. The co-pilot can give you very useful suggestions but they would need the the pilot’s creativity to make an impact.</p>
 </div>
-</div>
-<div id="where-can-we-deployt-this" class="section level1">
-<h1>Where can we deployt this?</h1>
-<p>Currently this tool can be very useful for companies that are trying to train their staff in digital skills. Having an exposure to how code is written will help people gain an understanding. The interface itself is really cool and feels like magic, we should leverage this to entice people who are keen on coding to start something.</p>
+<div id="where-can-we-use-this" class="section level1">
+<h1>Where can we use this?</h1>
+<p>Currently this tool can be very useful for companies that are trying to train their staff in digital skills. Having an exposure to how code is written will help people gain an understanding. The interface itself is really cool and feels like magic. This should be leveraged to entice people who are required to know more about coding.</p>
 </div>
