@@ -13,3 +13,5 @@ toc: no
 images: ~
 ---
 
+dfdsfsdfsdf
+Gestalt (means form, shape in German) is a group of visual perception principles developed by German psychologists in 1920s. It is buil
