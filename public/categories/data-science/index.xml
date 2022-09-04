@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copyright Rishabh Kumar &lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 21 Nov 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 21 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Co-pilot - pros and cons</title>
       <link>/post/creating-ml-apps-with-github-co-pilot/</link>
@@ -28,7 +24,7 @@ It really feels quite magical to use. please see the gif below.</description>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/what-are-random-forest/</guid>
-      <description>no  Draft
+      <description>noDraft
 Random forest algorithm helps us to classify items into various groupings.There are two kinds of random forest algorithms: one for regression and one for classifications. Both have similar underlying philosophies.
 Before getting into random forest its important to know the workings of the Decision tree algorithm. It works in a way to find features that will split the data in resulting groups that are as different from each other and the members of th these groups are as similar to each other as possible.</description>
     </item>

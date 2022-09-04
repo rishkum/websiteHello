@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Copyright Rishabh Kumar &lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 21 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>/posts/creating-a-new-theme/</link>
@@ -29,8 +25,8 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       
       <guid>/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+▾ &amp;lt;root&amp;gt;/▾ images/logo.pngshould become
+▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.pngAdditionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
@@ -49,7 +45,7 @@ It really feels quite magical to use. please see the gif below.</description>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/mental-health-among-british-adults-since-march/</guid>
-      <description> </description>
+      <description></description>
     </item>
     
     <item>
@@ -58,7 +54,7 @@ It really feels quite magical to use. please see the gif below.</description>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/what-are-random-forest/</guid>
-      <description>no  Draft
+      <description>noDraft
 Random forest algorithm helps us to classify items into various groupings.There are two kinds of random forest algorithms: one for regression and one for classifications. Both have similar underlying philosophies.
 Before getting into random forest its important to know the workings of the Decision tree algorithm. It works in a way to find features that will split the data in resulting groups that are as different from each other and the members of th these groups are as similar to each other as possible.</description>
     </item>
@@ -69,7 +65,7 @@ Before getting into random forest its important to know the workings of the Deci
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/representation-of-women-in-comics/</guid>
-      <description> </description>
+      <description></description>
     </item>
     
     <item>
@@ -78,7 +74,7 @@ Before getting into random forest its important to know the workings of the Deci
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/treatment-disparities-of-blacks/</guid>
-      <description> </description>
+      <description></description>
     </item>
     
     <item>
@@ -169,7 +165,7 @@ Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
     </item>
     
     <item>
@@ -205,11 +201,12 @@ là-dedans. Avec Jekylll, l&amp;rsquo;arborescence ressemblant à ceci :&lt;/p&g
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/misc/aboutme/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+      <description>Step 1. Install HugoGo to Hugo releases and download theappropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
- Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:</description>
+Step 2. Build the DocsHugo has its own example site which happens to also be the documentation siteyou are reading right now.
+Follow the following steps:
+Clone the Hugo repositoryGo into the repoRun hugo in server mode and build the docsOpen your browser to http://localhost:1313Corresponding pseudo commands:</description>
     </item>
     
   </channel>
