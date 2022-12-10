@@ -1,0 +1,102 @@
+---
+title: What are Random Forest?
+author: Rishabh Kumar
+date: '2020-07-13'
+slug: what-are-random-forest
+categories:
+  - R
+  - Machine Learning
+  - Data Science
+  - AI
+tags:
+  - data science
+  - How to do random forest
+  - What are random forest
+toc: no
+images: ~
+---
+
+ Draft 
+ 
+Random forest algorithm helps us to classify items into various groupings.There are two kinds of random forest algorithms: one for regression and one for classifications. Both have similar underlying philosophies.
+
+Before getting into random forest its important to know the workings of the Decision tree algorithm. It works in a way to find features that will split the data in resulting groups that are as different from each other and the members of th these groups are as similar to each other as possible. 
+
+# Classification
+See the plot below to differentiate the blue circles and red triangles, the DT algorithm will split at point 3 and point 4 drawing a straight line to make the clusters as different to each other as possible. Simply it takes into account the majority view and then classifies the data based on that.
+
+# Regression 
+
+When it comes to regression the style of data changes as dependency comes into place. So the algorithm divides the data into various parts and then in a way classifies it. This also implies that the regression is piecewise constant [INSErt LInk]
+
+# Random Forest example
+
+Random forest then relies on the wisdom of the crowds. So Basically the data is split into many parts like what is done in bootstrapping and then analysed. 
+
+
+Example
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(stringi)
+library(styler)
+
+library(caret)
+library(klaR)
+
+coffee_ratings <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-07/coffee_ratings.csv")
+
+
+# Remove outlier
+mdata <- coffee_ratings %>% dplyr::select(-country_of_origin, -variety) %>%  filter( total_cup_points >25)
+
+
+m1 <- lm(total_cup_points ~
+     species + 
+     aroma +
+     flavor +
+     acidity + 
+     color +
+     sweetness + 
+     altitude_mean_meters +
+     processing_method, 
+     data = mdata) 
+
+
+model_Data <- m1$model
+# Trying K fold cross validation
+set.seed(101) # Set Seed so that same sample can be reproduced in future also
+model_Data$total_cup_points <- ifelse(model_Data$total_cup_points >82.09, "Good",
+                                      "Bad")
+# Now Selecting 50% of data as sample from total 'n' rows of the data
+sample <- sample.int(n = nrow(model_Data), size = floor(.50*nrow(model_Data)), replace = F)
+train <- model_Data[sample, ]
+test  <- model_Data[-sample, ]
+
+
+
+# Define train control for k fold cross validation
+train_control <- trainControl(method="LGOCV", number=10)
+# Fit Naive Bayes Model
+model <- train(total_cup_points~.,
+               data=train,
+               trControl=train_control,
+               method="rf",
+               importance=T)
+
+# Summarise Results
+print(model)
+summary(model)
+
+model$results
+model$finalModel
+
+gbmImp <- varImp(model)
+gbmImp
+
+
+
+
+
+```
+
