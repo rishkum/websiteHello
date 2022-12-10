@@ -39,6 +39,15 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>GANs</title>
+      <link>/post/2022-12-10-gans/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2022-12-10-gans/</guid>
+      <description>A generative adversarial network (GAN) is a type of machine learning model that is used for generating synthetic data. It consists of two parts: a generator network and a discriminator network. The generator network generates synthetic data, while the discriminator network tries to distinguish the synthetic data from real data. The two networks are trained together in an adversarial process, where the generator tries to produce data that is indistinguishable from real data, and the discriminator tries to accurately classify the data as either real or synthetic.</description>
+    </item>
+    
+    <item>
       <title>No data no problem: weak supervision to the rescue</title>
       <link>/post/2022-12-10-no-data-no-problem-weak-supervision-to-the-rescue/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
