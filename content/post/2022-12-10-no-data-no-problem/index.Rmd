@@ -1,0 +1,15 @@
+---
+title: No data no problem
+author: Rishabh Kumar
+date: '2022-12-10'
+slug: []
+categories:
+  - AI
+tags:
+  - analysis
+draft: yes
+comments: no
+images: ~
+---
+
+Test ideas
