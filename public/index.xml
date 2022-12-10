@@ -39,6 +39,15 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>No data no problem: weak supervision to the rescue</title>
+      <link>/post/2022-12-10-no-data-no-problem-weak-supervision-to-the-rescue/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2022-12-10-no-data-no-problem-weak-supervision-to-the-rescue/</guid>
+      <description>Weak supervision is a machine learning technique that uses noisy or imprecise data to train a model. This is in contrast to strong supervision, where the training data is accurately labeled and easy for the model to learn from. Weak supervision is useful in situations where obtaining accurately labeled data is difficult or impossible, such as in natural language processing tasks where it can be difficult to accurately label text data.</description>
+    </item>
+    
+    <item>
       <title>Github Co-pilot - pros and cons</title>
       <link>/post/creating-ml-apps-with-github-co-pilot/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
