@@ -12,4 +12,4 @@ comments: no
 images: ~
 ---
 
-Test ideas
+Test ideas blogdown::stop_server()
